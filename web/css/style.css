@@ -1,0 +1,161 @@
+/*Reset*/
+body,h1,p,a {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: normal;
+}
+
+body{
+    font-family: "Outfit", Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Background*/
+body{
+    background-color: #0d1a2d;
+}
+
+/*Card*/
+
+.card-background{
+    width: 21.875em;
+    height: 37.5em;
+    background-color: #15273f;
+    border-radius: 3%;
+    box-shadow: 0 30px 50px 0 #0c1729;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container{
+    max-width: 18.75em;
+    margin-top:1.5625em;
+    margin-left: 1.5625em;
+    margin-right: 1.5625em;
+    margin-bottom:1.5625em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .Arte img{
+    border-radius: 2.5%;
+    margin-left: 0;
+}
+.container .Arte a:hover{
+    border-radius: 2.5%;
+    margin-left: 0;
+   color: tomato;
+}
+
+.container .Arte{
+    margin-left: 0;
+}
+
+
+.View{
+    position: absolute;
+    width: 2.8125em;
+    padding-left: 8.125em;
+    padding-right: 7.8125em;
+    padding-top: 8em;
+    padding-bottom: 7.9375em;
+    cursor: pointer;
+    border-radius: 2.5%;
+    opacity: 0;
+}
+.View:hover{
+    opacity: 1;
+    background-color: rgba(13, 255, 254, .6);
+}
+
+
+.Title{
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    font-weight:700;
+    margin-left: 0;
+
+}
+
+.Title:hover{
+    color: #0dfffe;
+}
+
+.Description{
+    font-size: 18px;
+    color: #90a5c2;
+    padding-top: 25px;
+}
+
+.Information{
+    display: flex;
+    margin: 0 auto;
+    width: 18.75em;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.Information img{
+    padding-right: 0.4375em;
+}
+.eth-price{
+    color: #00fefb;
+    padding-right: 7em;
+}
+.time{
+    color: #85a7d5;
+}
+
+.creation{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 18.75em;
+    margin-bottom: 30px;
+
+}
+
+.creation img{
+    max-width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.creation p, a{
+    align-self: center;
+    margin-left: 0.9375em;
+    color: #647899;
+}
+
+.creation::before{
+    content: '';
+    width: 18.75em;
+    height: 0.0625em;
+    background: #2f4159;
+    margin-bottom: 0.9375em;
+}
+
+.creation .name{
+    margin-left: 5px;
+    color: white;
+}
+.creation .name:hover{
+    color: #0dfffe;
+}
+
